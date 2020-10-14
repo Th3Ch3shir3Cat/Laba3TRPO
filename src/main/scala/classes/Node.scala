@@ -1,5 +1,12 @@
 package classes
 
+/**
+ * value - ключ
+ * left - левый потомок
+ * right - правый потомок
+ * sizeOfVertices - количество вершин у дерева
+ * @tparam T - передаваемый нами тип данных
+ */
 class Node[T]()(implicit ord: T => Ordered[T]){
 
   private var value: T = _;

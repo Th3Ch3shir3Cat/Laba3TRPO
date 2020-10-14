@@ -1,5 +1,13 @@
 package classes
 
+/**
+ * Класс бинарного дерева с основными методами
+ * root - корень дерева
+ * sizeBinaryTree - резмер дерева
+ * arrayTops - массив вершин
+ */
+
+
 class BinaryTree[T] {
 
   var root: Node[T] = null;
