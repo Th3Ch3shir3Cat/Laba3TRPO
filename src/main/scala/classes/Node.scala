@@ -1,13 +1,13 @@
 package classes
 
-class Node[T]()(implicit ev$1: T => Ordered[T]){
+class Node[T]()(implicit ord: T => Ordered[T]){
 
   private var value: T = _;
   var left: Node[T] = null;
   var right: Node[T] = null;
   private var sizeOfVertices: Int = 0;
 
-  def this(valueNode: T)(implicit ev$1: T => Ordered[T]){
+  def this(valueNode: T)(implicit ord: T => Ordered[T]){
     this();
     value = valueNode;
   }

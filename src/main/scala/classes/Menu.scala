@@ -44,12 +44,13 @@ class Menu {
           for(item <- listNodeFromFile){
             binaryTree.add(item);
           }
+          binaryTree.updateArrayTops();
         case 2 =>
           var value: String = readLine("Введите значение: ");
           binaryTree.add(value);
           binaryTree.updateArrayTops();
         case 3 =>
-          binaryTree.getBalance(0,binaryTree.sizeBinaryTree-1);
+          binaryTree.root = binaryTree.getBalance(0,binaryTree.sizeBinaryTree-1);
           binaryTree.updateArrayTops();
         case 4 =>
           print(s"Введите логический номер(1-${binaryTree.arrayTops.length}): ");
