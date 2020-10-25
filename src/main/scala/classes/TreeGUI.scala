@@ -11,22 +11,22 @@ import javax.swing.border.EmptyBorder
 class TreeGUI() extends JFrame {
 
   private var binaryTree: BinaryTree[String] = new BinaryTree[String];
-  private var nameFunctional: JLabel = null
-  private var contentPane: JPanel = null
-  private var buttonsPane: JPanel = null
-  private var stringForAdd: JTextField = null
-  private var buttonBalance: JButton = null
-  private var addRandomButton: JButton = null
-  private var addStringButton: JButton = null
-  private var deleteButtonForNumber: JButton = null
-  private var deleteButtonForValue: JButton = null
-  private var downloadFromFile: JButton = null
-  private var node: (Node[T]) forSome {type T <: Comparable[T]} = null
+  private var nameFunctional: JLabel = _;
+  private var contentPane: JPanel = _;
+  private var buttonsPane: JPanel = _;
+  private var stringForAdd: JTextField = _;
+  private var buttonBalance: JButton = _;
+  private var addRandomButton: JButton = _;
+  private var addStringButton: JButton = _;
+  private var deleteButtonForNumber: JButton = _;
+  private var deleteButtonForValue: JButton = _;
+  private var downloadFromFile: JButton = _;
+  private var node: (Node[T]) forSome {type T <: Comparable[T]} = _;
   private var drawer: DrawTree[String] = new DrawTree[String]();
-  private var masForNumber: util.Vector[Integer] = null
-  private var comboBoxForNumber: JComboBox[Integer] = null
-  private var comboBoxForValue: JComboBox[String] = null
-  private var masForValue: util.Vector[String] = null
+  private var masForNumber: util.Vector[Integer] = _;
+  private var comboBoxForNumber: JComboBox[Integer] = _;
+  private var comboBoxForValue: JComboBox[String] = _;
+  private var masForValue: util.Vector[String] = _;
 
 
   setTitle("Лабораотная работа №4")
