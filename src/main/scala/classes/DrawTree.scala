@@ -5,6 +5,7 @@ import java.awt.{Font, FontMetrics, Graphics, Point}
 import javax.swing.JPanel
 
 class DrawTree[T] extends JPanel{
+  //TODO попробовать заменить
   var node: Node[T] = null;
 
   def this(node: Node[T]){
