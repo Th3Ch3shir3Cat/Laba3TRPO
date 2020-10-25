@@ -10,7 +10,7 @@ package classes
 
 class BinaryTree[T] {
 
-  var root: Node[T] = null; //попробовать заменить
+  var root: Node[T] = _;
   var sizeBinaryTree: Int = 0;
   var arrayTops: Array[Node[T]] = Array();
 

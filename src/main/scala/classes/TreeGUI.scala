@@ -38,7 +38,7 @@ class TreeGUI() extends JFrame {
   masForValue = new util.Vector[String]
 
   /**
-   * Заменить на чтение из файла
+   * Генерируем рандомно значения узлов
    */
 
   for (i <- 0 until 5) {
